@@ -51,11 +51,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="group flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg flex items-center justify-center font-heading font-bold text-sm text-white"
+          {/* <div className="w-9 h-9 rounded-lg flex items-center justify-center font-heading font-bold text-sm text-white"
             style={{ background: 'linear-gradient(135deg, #8b5cf6, #06b6d4)' }}>
             AB
-          </div>
-          <span className="font-heading font-semibold text-white hidden sm:block text-sm tracking-wide">
+          </div> */}
+          <span className="font-heading font-semibold text-white hidden sm:block text-xl tracking-wide">
             Abimanyu<span className="text-gradient"> B.</span>
           </span>
         </a>
